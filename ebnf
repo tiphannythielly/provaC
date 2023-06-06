@@ -1,0 +1,33 @@
+EBNF
+<char> = {a..z} *
+
+Typ Reklamace
+
+<char> := a..z
+<var> := <char>0..9
+<tipo> := w | s | f | d
+<op.arit> := * | - | + | /
+<numbro> := 0..9
+<varnum> := <var> | <num>
+cist <var>;
+int <var>;
+zanoky <var>;
+<var> = <varnum> <op.arit> <varnum>;
+print <var>;
+por <var> de <num> az do <num> pak
+zaverecny pruvod
+
+se <var> <op.rel> <num> pak
+dokoncit pokud
+
+cist x;
+int y;
+cist i;
+scanf("%d", &x):
+y = x * 2;
+por (i=0;i<y;i++){
+    se (i>10){
+      printf("%d pak 10", i);
+  }
+}
+vratit 0;
