@@ -1,0 +1,19 @@
+cely x;
+int y;
+cely i;
+cely a;
+zakony x;
+y = x * 2;
+por i de 1 gis 10 nuz
+    se y > 10 pak
+      print "pasis 10";
+    dokoncit pokud
+
+se a > 5 pak
+    vytisknout al;
+dokoncit pokud
+
+se a = 3 pak
+    vytisknout al;
+dokoncit pokud
+vratit 0;
